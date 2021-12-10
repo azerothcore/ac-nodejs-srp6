@@ -20,7 +20,11 @@
     "url": "https://github.com/Miorey/trinitycore-srp6/issues"
   },
   "homepage": "https://github.com/Miorey/trinitycore-srp6#readme",
+  "exports": { "import": "./index.js" },
+  "type": "module",
+  "module": "./index.js",
   "dependencies": {
+    "@skypack/package-check": "^0.2.2",
     "big-integer": "^1.6.51",
     "bigint-buffer": "^1.1.5",
     "crypto": "^1.0.1"
